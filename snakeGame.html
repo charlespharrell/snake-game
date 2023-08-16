@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snakeGame.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+           <div class="can-container">
+               <canvas id="game" class="game-canvas"  width="400" height="400"></canvas>
+            
+            <div id="playAgain">
+                <div id="play">Play Again</div>
+                <div class="score-con">
+                    <div class="score">Score: <span id="scores">0</span></div>
+                    <div > <span id="highscore">HighScore: 0</span></div>
+                 </div>
+            </div>
+           </div>
+            <div class="keys">
+                <a data-key ="ArrowUp" class="up arr">
+                    <i class="chevron up"></i>
+                </a>
+                <div  class="leftnright">
+                    <a data-key ="ArrowLeft" class="left arr">
+                        <i class="chevron left"></i>
+                    </a> 
+                    <a data-key ="ArrowRight" class="right arr">
+                        <i class=" chevron right"></i>
+                    </a>
+                </div>
+                </a>
+                <a data-key ="ArrowDown" class="down arr">
+                    <i class="chevron down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./snakeGame.js"></script>
+</body>
+</html>
