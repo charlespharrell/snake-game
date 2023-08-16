@@ -261,15 +261,13 @@ xVelocity = -1;
     if(e.keyCode === 32){
         xVelocity =0;
         yVelocity=0;
-    }
-    
+    }  
 }  
 
 //to reset the game
 function Play(){  
     playAgain()
 }
-
 drawGame()
 
 
